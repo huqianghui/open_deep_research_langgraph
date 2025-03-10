@@ -1,11 +1,10 @@
 https://github.com/langchain-ai/open_deep_research?tab=readme-ov-file#quickstart
 
-1. terminal go to the open_deep_research_langgraph folder
-2. Edit the .env file with your API keys (e.g., the API keys for default selections are shown below):
+## 1. terminal go to the open_deep_research_langgraph folder
+## 2. Edit the .env file with your API keys (e.g., the API keys for default selections are shown below):
    cp .env.example .env
 
-
-## 4. Windows
+## 3. Windows
 # Install dependencies 
 python.exe -m pip install --upgrade pip
 pip install -e .
@@ -14,7 +13,7 @@ pip install langgraph-cli[inmem]
 # Start the LangGraph server
 langgraph dev
 
-## 4. Mac
+## 3. Mac
 
 pip install -e .
 pip install "langgraph-cli[inmem]"
@@ -25,8 +24,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 # Install dependencies and start the LangGraph server
 uvx --refresh --from "langgraph-cli[inmem]" --with-editable . --python 3.11 langgraph dev
 
-
-5. Use this to open the Studio UI:
+## 4. Use this to open the Studio UI:
 
 - 🎨 Studio UI: https://smith.langchain.com/studio/?baseUrl=http://127.0.0.1:2024
 please follow web-operation-mannual.ipynb
